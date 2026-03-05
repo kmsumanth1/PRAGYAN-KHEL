@@ -1,0 +1,128 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* ===== 3D Animated Background ===== */
+.bg-animation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, #3b82f6, transparent 40%),
+              radial-gradient(circle at 80% 70%, #8b5cf6, transparent 40%);
+  animation: moveBg 10s infinite alternate ease-in-out;
+  z-index: -1;
+  filter: blur(100px);
+}
+
+@keyframes moveBg {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.2) translate(-30px, 30px); }
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.05);
+  position: sticky;
+  top: 0;
+}
+
+.auth button {
+  margin-left: 15px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.signup {
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+  color: white;
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #cbd5e1;
+}
+
+/* ===== FEATURES ===== */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+/* ===== GLASS CARDS ===== */
+.card {
+  width: 280px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.4s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+.tool-container {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 80vw;
+  max-width: 1000px;
+}
+
+video {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}

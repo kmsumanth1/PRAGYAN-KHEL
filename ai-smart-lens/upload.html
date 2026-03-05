@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Video - AI Smart Lens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2>AI Smart Lens</h2>
+</header>
+
+<div class="tool-container">
+
+  <!-- File Upload -->
+  <div style="margin-bottom:20px;">
+    <input type="file" id="videoUpload" accept="video/*">
+    <p>Use mp4 files to get perfect results</p>
+  </div>
+ 
+
+  <!-- Video + Canvas Overlay -->
+  <div class="video-wrapper">
+    <video id="video" playsinline controls></video>
+    <canvas id="canvas"></canvas>
+    
+  </div>
+
+  <!-- FPS Display -->
+  <div id="fps">FPS: 0</div>
+
+</div>
+
+
+<!-- MediaPipe Selfie Segmentation -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/selfie_segmentation.js"></script>
+
+<!-- Your Main Logic -->
+<script src="app.js"></script>
+
+</body>
+</html>

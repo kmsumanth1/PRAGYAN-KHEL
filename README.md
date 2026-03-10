@@ -1,3 +1,12 @@
+🏆 Hackathon Inspiration
+
+This project was developed as part of an exploration inspired by the NextGen Hackathon - Pragyan 2026, organized during Pragyan 2026 at **National Institute of Technology Tiruchirappalli>, Tamil Nadu, India.
+
+The hackathon focuses on encouraging innovative solutions in Artificial Intelligence, software development, and emerging technologies.
+The AI Smart Lens project was conceptualized to demonstrate how real-time computer vision techniques can enhance video processing on the web, similar to portrait effects used in modern camera systems.
+
+The project explores the potential of AI-powered video processing directly in the browser, making advanced computer vision techniques accessible through lightweight web technologies.
+
 # AI Smart Lens 
 
 **AI Smart Lens** is a web-based application that demonstrates how Artificial Intelligence can be used to process videos in real time. The system applies a background blur effect while keeping the main subject clear, similar to portrait mode in modern cameras.

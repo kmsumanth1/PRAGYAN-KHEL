@@ -1,6 +1,6 @@
-🏆 Hackathon Inspiration
+# Hackathon Inspiration
 
-This project was developed as part of an exploration inspired by the NextGen Hackathon - Pragyan 2026, organized during Pragyan 2026 at **National Institute of Technology Tiruchirappalli>, Tamil Nadu, India.
+This project was developed as part of an exploration inspired by the NextGen Hackathon - Pragyan 2026, organized during Pragyan 2026 at **National Institute of Technology Tiruchirappalli**, Tamil Nadu, India.
 
 The hackathon focuses on encouraging innovative solutions in Artificial Intelligence, software development, and emerging technologies.
 The AI Smart Lens project was conceptualized to demonstrate how real-time computer vision techniques can enhance video processing on the web, similar to portrait effects used in modern camera systems.
@@ -67,7 +67,7 @@ AI-Smart-Lens
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Future versions of this project may include:
 
@@ -79,6 +79,6 @@ Future versions of this project may include:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-This project was developed as part of an exploration into **AI-powered computer vision applications for the web**.
+Developed by KM Sumanth as part of an exploration into AI-powered computer vision applications for the web, inspired by the NextGen Hackathon – Pragyan 2026.
